@@ -1,0 +1,6 @@
+@NV_ProjectLab_HostAddress = http://localhost:5294
+
+GET {{NV_ProjectLab_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

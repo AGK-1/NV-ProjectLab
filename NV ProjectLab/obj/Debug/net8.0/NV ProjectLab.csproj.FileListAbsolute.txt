@@ -1,0 +1,71 @@
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\appsettings.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.staticwebassets.endpoints.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.exe
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.deps.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.runtimeconfig.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.pdb
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.csproj.AssemblyReference.cache
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.AssemblyInfoInputs.cache
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.AssemblyInfo.cs
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.csproj.CoreCompileInputs.cache
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\scopedcss\bundle\NV ProjectLab.styles.css
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV Proje.93B3C67F.Up2Date
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\refint\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.pdb
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.genruntimeconfig.cache
+C:\Users\Android_999\Desktop\node_js_lesson\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\ref\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\appsettings.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.staticwebassets.endpoints.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.exe
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.deps.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.runtimeconfig.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\NV ProjectLab.pdb
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.csproj.AssemblyReference.cache
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.AssemblyInfoInputs.cache
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.AssemblyInfo.cs
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.csproj.CoreCompileInputs.cache
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.sourcelink.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\scopedcss\bundle\NV ProjectLab.styles.css
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV Proje.93B3C67F.Up2Date
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\refint\NV ProjectLab.dll
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.pdb
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\NV ProjectLab.genruntimeconfig.cache
+C:\Users\Android_999\Desktop\NV ProjectLab\NV ProjectLab\obj\Debug\net8.0\ref\NV ProjectLab.dll
