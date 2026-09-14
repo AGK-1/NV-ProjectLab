@@ -1,12 +1,18 @@
 [
   {
     "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
-    "Method": "myFunc",
-    "RelativePath": "api/ProjectLab_panel/my",
-    "HttpMethod": "GET",
+    "Method": "AddNewCustomer",
+    "RelativePath": "api/ProjectLab_panel/add-new-customer",
+    "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CustomerDTO",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.String",
@@ -20,16 +26,22 @@
     ]
   },
   {
-    "ContainingType": "NV_ProjectLab.Controllers.WeatherForecastController",
-    "Method": "Get",
-    "RelativePath": "WeatherForecast",
-    "HttpMethod": "GET",
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "Delete",
+    "RelativePath": "api/ProjectLab_panel/delete-customer-with-email/{email}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": [
       {
-        "Type": "System.Collections.Generic.IEnumerable\u00601[[NV_ProjectLab.WeatherForecast, NV ProjectLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "Type": "System.String",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -37,7 +49,175 @@
         ],
         "StatusCode": 200
       }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "Delete",
+    "RelativePath": "api/ProjectLab_panel/delete-customer/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
     ],
-    "EndpointName": "GetWeatherForecast"
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "GetAll",
+    "RelativePath": "api/ProjectLab_panel/get-all-customers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CustomerEntity, NV ProjectLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "GetAllCustomer",
+    "RelativePath": "api/ProjectLab_panel/get-all-waiting-customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[CustomerEntity, NV ProjectLab, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "GetCustomerWithId",
+    "RelativePath": "api/ProjectLab_panel/get-customer-with-email{email}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CustomerEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "GetCustomerWithId",
+    "RelativePath": "api/ProjectLab_panel/get-customer-with-id{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CustomerEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "GetNextCustomer",
+    "RelativePath": "api/ProjectLab_panel/get-next-waiting-customer",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CustomerEntity",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "NV_ProjectLab.Controllers.ProjectLab_panel",
+    "Method": "ChangeStatusCustomer",
+    "RelativePath": "api/ProjectLab_panel/update-status/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "_status",
+        "Type": "ChangeStatusDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

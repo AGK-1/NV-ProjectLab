@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NV ProjectLab")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ab9f478c0f46453e3b371241fc3038b9e0aa584d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+82b77a2faa90df5de6873cbef73a17afc0fd80fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("NV ProjectLab")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NV ProjectLab")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
