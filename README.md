@@ -4,17 +4,43 @@
 
 Core Service Methods
 
+# ProjectLab Panel API
 
-AddCustomer(CustomerEntity customer): Assigns an auto-incremented thread-safe ID, pushes the entity to the top of the concurrent stack, and returns a success string.
+Base URL: `/api/ProjectLab_panel`
 
-ChangeCustomerStatus(int id, CustomerStatus status): Searches for a customer by ID and updates their status enum, returning a status modification message or "Customer not found".
+An updated in-memory, thread-safe ASP.NET Core Web API leveraging `ConcurrentStack` and `Interlocked` operations to manage customer records, status tracking, and waiting queue mechanics.
 
-DeleteCustomer(int id) / DeleteCustomerWithEmail(string email): Iterates through the stack via TryPop to locate and remove the targeted record. (Note: Popping elements out of order to find a specific match can temporarily alter stack sequencing unless carefully managed).
+---
 
-GetCustomers(): Converts and returns all items currently in the stack as an IEnumerable<CustomerEntity>.
+## Architecture & Storage Overview
 
-GetAllWaitingCustomers(): Filters the stack to return all entities flagged with the CustomerStatus.Waiting state.
+* **Thread-Safe In-Memory Queue:** Backed by `ConcurrentStack<CustomerEntity>` with atomic ID generation via `Interlocked.Increment`.
+* **Ephemeral Data:** Because state is held entirely in system memory, data resets whenever the application pool restarts.
 
-GetCustomerWithId(int id) / GetCustomerWithEmail(string email): Queries the storage collection and returns the matching entity, throwing a KeyNotFoundException if no match is found.
+---
 
-GetNextCustomer(): Retrieves the most recent waiting customer (LastOrDefault on the filtered waiting subset, reflecting stack LIFO behavior).
+## Updated Endpoints Reference
+
+### 1. Customer Management & Queuing
+* **`POST /api/ProjectLab_panel/add-new-customer`**  
+  Creates and pushes a new customer to the top of the storage stack with an auto-assigned ID.
+* **`GET /api/ProjectLab_panel/get-all-waiting-customer`**  
+  Retrieves a collection of all customers currently flagged with a `Waiting` status.
+* **`GET /api/ProjectLab_panel/get-next-waiting-customer`**  
+  Fetches the next prioritized customer in line from the waiting pool.
+* **`GET /api/ProjectLab_panel/get-all-customers`**  
+  Returns all customer records currently registered in the system.
+
+### 2. Lookups & Queries
+* **`GET /api/ProjectLab_panel/get-customer-with-id{id}`**  
+  Finds and returns a specific customer by their numeric ID (throws `KeyNotFoundException` if missing).
+* **`GET /api/ProjectLab_panel/get-customer-with-email{email}`**  
+  Finds and returns a specific customer by their email address.
+
+### 3. State Changes & Removals
+* **`PUT /api/ProjectLab_panel/update-status/{id}`**  
+  Updates the status enum for a target customer using their ID.
+* **`DELETE /api/ProjectLab_panel/delete-customer/{id}`**  
+  Pops through stack elements to locate and remove a record by ID.
+* **`DELETE /api/ProjectLab_panel/delete-customer-with-email/{email}`**  
+  Pops through stack elements to locate and remove a record by email address.
